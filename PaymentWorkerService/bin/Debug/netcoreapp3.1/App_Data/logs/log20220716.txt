@@ -1,0 +1,23 @@
+2022-07-16 04:45:36 [INFO]<1> [] ====================================================================
+2022-07-16 04:45:37 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-07-16 04:45:37 [INFO]<1> [] Application Directory: C:\Users\Falcorp\Documents\eLearning\C#\EntityFrameWorks\PaymentAPI\PaymentWorkerService\bin\Debug\netcoreapp3.1\
+2022-07-16 04:49:25 [INFO]<1> [] ====================================================================
+2022-07-16 04:49:25 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-07-16 04:49:25 [INFO]<1> [] Application Directory: C:\Users\Falcorp\Documents\eLearning\C#\EntityFrameWorks\PaymentAPI\PaymentWorkerService\bin\Debug\netcoreapp3.1\
+2022-07-16 04:53:53 [INFO]<1> [] ====================================================================
+2022-07-16 04:53:53 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-07-16 04:53:53 [INFO]<1> [] Application Directory: C:\Users\Falcorp\Documents\eLearning\C#\EntityFrameWorks\PaymentAPI\PaymentWorkerService\bin\Debug\netcoreapp3.1\
+2022-07-16 12:08:24 [INFO]<1> [] ====================================================================
+2022-07-16 12:08:24 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2022-07-16 12:08:24 [INFO]<1> [] Application Directory: C:\Users\Falcorp\Documents\eLearning\C#\EntityFrameWorks\PaymentAPI\PaymentWorkerService\bin\Debug\netcoreapp3.1\
+2022-07-16 12:08:40 [FATL]<1> [] Application terminated unexpectedly
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PaymentWorkerService.Worker.Dispose() in C:\Users\Falcorp\Documents\eLearning\C#\EntityFrameWorks\PaymentAPI\PaymentWorkerService\Worker.cs:line 77
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.DisposeAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Hosting.Internal.Host.DisposeAsync()
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at PaymentWorkerService.Program.Main(String[] args) in C:\Users\Falcorp\Documents\eLearning\C#\EntityFrameWorks\PaymentAPI\PaymentWorkerService\Program.cs:line 37
+2022-07-16 12:08:41 [INFO]<1> [] ====================================================================
+
